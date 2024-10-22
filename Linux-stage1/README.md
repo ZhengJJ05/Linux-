@@ -33,18 +33,18 @@
 修改后：
 
     #cloud-config
-autoinstall:
-  version: 1
-  identity:
-    hostname: jj
-    realname: JJ
-    username: jj
-    password: $6$4phqO8VayTuH60YE$yVpQAgALxC.ASqFAwyNq.bhmj8uYDlAgTCOVqPia77P0YEUIwIFOSJR7zylXIXwbxwKjRCxKFlwjjqcRf3..o.
-  storage:
-    layout:
-      name: lvm
-  ssh:
-    install-server: yes
+    autoinstall:
+    version: 1
+    identity:
+      hostname: jj
+      realname: JJ
+      username: jj
+      password: $6$4phqO8VayTuH60YE$yVpQAgALxC.ASqFAwyNq.bhmj8uYDlAgTCOVqPia77P0YEUIwIFOSJR7zylXIXwbxwKjRCxKFlwjjqcRf3..o.
+    storage:
+      layout:
+        name: lvm
+    ssh:
+      install-server: yes
 
 
 在Linux中创建user-data并将修改后的autoinstall-user-data内容复制进user-data
