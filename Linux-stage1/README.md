@@ -1,5 +1,5 @@
 # 制作Ubuntu-24.04-live-server-amd64的无人值守镜像文件
-##
+## 声明
 过程中有些步骤冗余，可自行选择更快地方法达到相同目的
 ## 事前准备
 安装Linux
@@ -78,9 +78,12 @@
 
 
 
-参考链接：
+## 参考链接
+
 [eploy Ubuntu 24.04 (Noble Numbat) with Autoinstall to Proxmox](https://sekureco42.ch/posts/deploy-ubuntu-24.04-with-autoinstall-to-proxmox/)
+
 [Ubuntu server版本无人值守安装自动安装](https://blog.csdn.net/weixin_49393427/article/details/123505287)
+
 [Ubuntu22.04应答文件](http://lujinkai.cn/%E8%BF%90%E7%BB%B4%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2/Ubuntu22.04%E5%BA%94%E7%AD%94%E6%96%87%E4%BB%B6/#%E8%87%AA%E5%8A%A8%E5%AE%89%E8%A3%85%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8)
 
 
