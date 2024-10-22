@@ -1,0 +1,13 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: jj
+    realname: JJ
+    username: jj
+    password: $6$4phqO8VayTuH60YE$yVpQAgALxC.ASqFAwyNq.bhmj8uYDlAgTCOVqPia77P0YEUIwIFOSJR7zylXIXwbxwKjRCxKFlwjjqcRf3..o.
+  storage:
+    layout:
+      name: lvm
+  ssh:
+    install-server: yes
