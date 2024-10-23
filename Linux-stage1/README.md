@@ -63,7 +63,7 @@
 创建虚拟机的步骤和先前一模一样
 只需要在选择镜像时额外添加一个cloud-init.iso镜像文件
 一定要把ubuntu-24.04-live-server-amd64.iso放在一号位把cloud-init.iso放在二号位
-![双镜像设置](/image/vm1.PNG)
+![双镜像设置](/Linux-stage1/image/vm1.PNG)
 
 ## 进行无人值守安装Linux
 
@@ -71,7 +71,7 @@
 选择第一个选项
 等待一段时间会出现是否继续自动安装
 输入yes即可
-![无人值守](/image/vm2.PNG)
+![无人值守](/Linux-stage1/image/vm2.PNG)
 
 
 
